@@ -1,2 +1,2 @@
 alias cadence="docker run --rm ubercadence/cli:master --address host.docker.internal:7933"
-cadence --domain samples-domain workflow start --tl helloWorldGroup --wt cadence-example/workflows/overdub.Workflow --et 999 --dt 60 -i '"My name is nicolas. How are you today?"'
+cadence --domain samples-domain workflow start --tl overdubTaskList --wt cadence-example/workflows/overdub.Workflow --et 999 --dt 60 -i '"My name is nicolas. How are you today?"'

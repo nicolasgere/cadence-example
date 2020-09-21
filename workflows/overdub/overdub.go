@@ -8,16 +8,9 @@ import (
 	"time"
 )
 
-/**
- * This is the hello world workflow sample.
- */
-
 // ApplicationName is the task list for this sample
-const TaskListName = "helloWorldGroup"
-const SignalName = "helloWorldSignal"
+const TaskListName = "overdubTaskList"
 
-// This is registration process where you register all your workflows
-// and activity function handlers.
 func init() {
 	workflow.Register(Workflow)
 	activity.Register(activities.SplitText)
